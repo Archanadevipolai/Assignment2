@@ -1,0 +1,148 @@
+
+.container{
+    border: 1px solid black;
+    height:100vh;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(6,1fr);
+    grid-gap:5px ;
+}
+.search{
+    grid-column-start: 2;
+    grid-column-end: 6;
+    border: 1px solid black;
+    background-color: rgb(115, 100, 129);
+}
+
+.nav{
+    border:1px solid black;
+    background-color: rgb(115, 100, 129);
+    grid-row-start: 1;
+    grid-row-end: 7;
+    }
+.con1{
+    border: 1px solid black;
+    background-color: rgb(142, 160, 160);
+    border-radius: 30px;
+}
+.con2{
+    border: 1px solid black;
+    background-color: rgb(85, 111, 103);
+    border-radius: 30px;
+}
+.con3{
+    border: 1px solid black;
+    background-color: rgb(203, 162, 113);
+    border-radius: 30px;
+}
+.customer{
+     border: 1px solid black;
+     background-color: rgb(105, 94, 76);
+     grid-column-start: 2;
+     grid-column-end:6;
+}
+.department{
+    border: 1px solid black;
+    background-color: rgb(111, 126, 126);
+    grid-column-start: 2;
+    grid-column-end:6 ;
+}
+.media{
+    border: 1px solid black;
+    background-color: rgb(104, 104, 153);
+     grid-column-start: 2;
+    grid-column-end:6 ;
+}
+.audio{
+    border: 1px solid black;
+    background-color: rgb(183, 186, 158);
+    border-radius:40px ;
+}
+.video{
+    border: 1px solid black;
+    background-color: rgb(183, 186, 158);
+    border-radius:40px ;
+}
+.image{
+    border: 1px solid black;
+    background-color: rgb(183, 186, 158);
+    border-radius:40px ;
+}
+.files{
+    border:1px solid black;
+    background-color: rgb(183, 186, 158);
+    border-radius:40px ;
+}
+#w{
+    font-size: 30px;
+    font-weight: bold;
+    color: azure;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 3px;
+    padding: 2px;
+}
+#work{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(38, 4, 70);
+}
+.home{
+    border: 1px solid black;
+    margin: 1px;
+}
+#home{
+    color: azure;
+    font-size: 20px;
+}
+.Customer{
+    border:1px solid black;
+    margin:1px;
+}
+#customer{
+    color: azure;
+    font-size: 20px;
+}
+.Department{
+    border: 1px solid black;
+    margin: 1px;
+}
+#department{
+    color: azure;
+    font-size: 20px;
+}
+.Media{
+    border: 1px solid black;
+    margin: 1px;
+}
+#media{
+    color: azure;
+    font-size: 20px;
+}
+.search{
+    text-align: end;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid black;
+    text-align: left;
+}
+.account{
+    position: absolute;
+    bottom: 0%;
+}
+#acc{
+    color: azure;
+    font-size: 20px;
+}
+.home:hover,.Customer:hover,.Department:hover,.Media:hover,.account:hover{
+    background-color: grey;
+}
+.home:active,.Customer:active,.Department:active,.Media:active,.account:active{
+    color: rgb(21, 0, 255);
+}
+

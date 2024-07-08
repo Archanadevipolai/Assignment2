@@ -1,0 +1,150 @@
+body{
+    height:110vh ;
+}
+.container{
+    border: 1px solid black;
+    height:100%;
+    box-sizing: border-box;
+    position: relative;
+
+}
+.search{
+    float: right;
+    border: 1px solid black;
+    background-color: blueviolet;
+    }
+
+.nav{
+    border:1px solid black;
+    background-color: rgb(156, 148, 163);
+    justify-items: flex-start;
+    width: 300px;
+    height: 100%;
+    }
+    
+    #work{
+        display: inline;
+        font-size: 30px;
+        font-weight: bold;
+        color: rgb(94, 11, 130);
+    }
+    #w{
+        font-size: 30px;
+        font-weight: bold;
+        color: azure;
+        border: 1px solid black;
+        border-radius: 50%;
+        margin: 3px;
+        padding: 2px;
+    }
+    .home{
+        border: 1px solid black;
+        margin: 1px;
+    }
+    #home{
+        color: azure;
+        font-size: 20px;
+    }
+    .Customer{
+        border:1px solid black;
+        margin:1px;
+    }
+    #customer{
+        color: azure;
+        font-size: 20px;
+    }
+    .Department{
+        border: 1px solid black;
+        margin: 1px;
+    }
+    #department{
+        color: azure;
+        font-size: 20px;
+    }
+    .Media{
+        border: 1px solid black;
+        margin: 1px;
+    }
+    #media{
+        color: azure;
+        font-size: 20px;
+    }
+    .search{
+        text-align: end;
+    }
+    table,td ,th{
+        font-size: 20px;
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    .table{
+        position: absolute;
+        left: 30%;
+        top: 30px;
+    }
+    .image{
+        position: absolute;
+        left: 350px;
+        top: 30px;
+    }
+    #image{
+        position: absolute;
+        left: 350px;
+        top:65px;
+        margin: 5px;
+    }
+    .video{
+        position: absolute;
+        left: 350px;
+        top: 480px;
+    }
+    #video{
+        position: absolute;
+        left: 350px;
+        top:63%;
+        margin: 5px;
+    }
+    .audio{
+        position: absolute;
+        left: 350px;
+        top: 85%;
+        margin-top: 5px;
+    }
+    #audio{
+        position: absolute;
+        left: 350px;
+        top: 700px;
+        margin: 35px;
+    }
+    .account{
+        position: absolute;
+        bottom: 0;
+    }
+    #acc{
+        color: azure;
+        font-size: 20px;
+    }
+    .img{
+        position: absolute;
+        top: 30px;
+        left: 350px;
+        /* border: 1px solid rgb(164, 152, 152);
+        border-radius: 30px; */
+    }
+    .form{
+        position: absolute;
+        top: 300px;
+        left: 350px;
+    }
+    .button{
+        position: absolute;
+        top:300px;
+    }
+    .home:hover,.Customer:hover,.Department:hover,.Media:hover,.account:hover{
+        background-color: grey;
+    }
+    .home:active,.Customer:active,.Department:active,.Media:active,.account:active{
+        color: rgb(21, 0, 255);
+    }
+    
+    
